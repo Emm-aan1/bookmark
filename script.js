@@ -75,8 +75,8 @@ function fetchBookmark() {
     // create a bookmarks array in local storage
     bookmarks = [
       {
-        name: 'Google',
-        url: 'google.com'
+        name: 'Github',
+        url: ' ',
       }
     ]
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
